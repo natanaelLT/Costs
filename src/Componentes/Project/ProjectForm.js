@@ -16,7 +16,7 @@ function ProjectForm({ handleSubmit, btnText, projecData }) {
   }))
 
   useEffect(() => {
-    fetch('http://localhost:5000/categories', {
+    fetch('https://costs-api-iaie.onrender.com/categories', {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
     })
@@ -26,7 +26,7 @@ function ProjectForm({ handleSubmit, btnText, projecData }) {
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:5000/status', {
+    fetch('https://costs-api-iaie.onrender.com/status', {
       method: 'GET',
       headers: { 'Content-Type': 'application/json' },
     })

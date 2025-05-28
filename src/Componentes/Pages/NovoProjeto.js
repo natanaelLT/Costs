@@ -17,7 +17,7 @@ function NovoProjeto() {
             category_id: project.category?.id
         }
     
-        fetch('http://localhost:5000/projects', {
+        fetch('https://costs-api-iaie.onrender.com/projects', {
             method: 'POST',
             headers: {
                 'Content-type': "application/json"

@@ -31,7 +31,7 @@ function Projeto() {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch('http://localhost:5000/projects', {
+            fetch('https://costs-api-iaie.onrender.com/projects', {
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json',
@@ -49,7 +49,7 @@ function Projeto() {
 
     function removeProject(id){
         
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`https://costs-api-iaie.onrender.com/projects${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

@@ -9,7 +9,7 @@ function Dashboard() {
      const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://costs-api-iaie.onrender.com/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((err) => console.error("Erro ao carregar:", err));
