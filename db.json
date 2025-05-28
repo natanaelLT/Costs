@@ -1,22 +1,5 @@
 {
-  "projects": [
-    {
-      "id": "5025",
-      "name": "Projeto atualizado 2 ",
-      "budget": "50000",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "cost": 0,
-      "services": [],
-      "category_id": "1",
-      "status": {
-        "id": "5",
-        "name": "❌Cancelado"
-      }
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": "1",
